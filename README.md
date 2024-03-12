@@ -1,4 +1,4 @@
-# Haukesomm Repo
+# Personal Homebrew Tap of haukesomm
 
 ## How do I install these formulae?
 
