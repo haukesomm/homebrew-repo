@@ -1,5 +1,5 @@
 class ApplePhotosExport < Formula
-  desc "Command line tool to export photos from the macOS Photos library"
+  desc "Command-line tool to export photos from the macOS Photos library"
   homepage "https://github.com/haukesomm/apple-photos-export"
   url "https://github.com/haukesomm/apple-photos-export/archive/refs/tags/release-0.0.1.tar.gz"
   sha256 "c484246192cc1ff81b8b6fe92902e84e140454f6dd19213c585aafe465c4cab4"
