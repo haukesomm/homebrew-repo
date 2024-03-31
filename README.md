@@ -1,11 +1,16 @@
 # Personal Homebrew Tap of haukesomm
 
-## How do I install these formulae?
+This is my personal homebrew repository hosting formulae for both my personal and third party projects that do not
+natively support homebrew.
 
-`brew install haukesomm/repo/<formula>`
+## Personal projects
 
-Or `brew tap haukesomm/repo` and then `brew install <formula>`.
+| Project             | Version | Repo                                             |
+| ------------------- | ------- | ------------------------------------------------ |
+| apple-photos-export | `0.0.1` | https://github.com/haukesomm/apple-photos-export |
 
-## Documentation
+## Other projects
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+| Project | Author                                | Version | Repo                              |
+| ------- | ------------------------------------- | ------- | --------------------------------- |
+| bunbun  | [devraza](https://github.com/devraza) | `1.3.0` | https://github.com/devraza/bunbun |
