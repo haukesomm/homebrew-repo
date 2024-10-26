@@ -1,8 +1,8 @@
 class ApplePhotosExport < Formula
   desc "Command-line tool to export photos from the macOS Photos library"
   homepage "https://github.com/haukesomm/apple-photos-export"
-  url "https://github.com/haukesomm/apple-photos-export/archive/refs/tags/release-0.3.0.tar.gz"
-  sha256 "98551e3bf159835b2f11c89cb1baacd783361e7223ee73c437b61c48f1fe61e5"
+  url "https://github.com/haukesomm/apple-photos-export/archive/refs/tags/release-0.4.0.tar.gz"
+  sha256 "379ba21737f198b00f60fe9cb7cca1c0dd8804f8bffc486d018b094d258a8aa2"
   license "MIT"
 
   depends_on "rust" => :build
