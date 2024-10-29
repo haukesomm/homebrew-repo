@@ -13,6 +13,6 @@ class ApplePhotosExport < Formula
 
   test do
     output = shell_output("#{bin}/apple-photos-export --version")
-    assert_match "apple-photos-export 0.3.0", output
+    assert_match "apple-photos-export 0.4.0", output
   end
 end
