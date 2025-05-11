@@ -7,7 +7,7 @@ natively support homebrew.
 
 | Project             | Version | Repo                                             |
 | ------------------- | ------- | ------------------------------------------------ |
-| apple-photos-export | `0.2.0` | https://github.com/haukesomm/apple-photos-export |
+| apple-photos-export | `0.4.1` | https://github.com/haukesomm/apple-photos-export |
 
 ## Other projects
 
