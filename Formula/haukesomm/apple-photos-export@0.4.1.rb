@@ -1,8 +1,8 @@
 class ApplePhotosExport < Formula
   desc "Command-line tool to export photos from the macOS Photos library"
   homepage "https://github.com/haukesomm/apple-photos-export"
-  url "https://github.com/haukesomm/apple-photos-export/archive/refs/tags/release-1.0.0.tar.gz"
-  sha256 "9ea3a3b8805ef4fd0c178b76dcd13e2272d68dd047d4bb7865596c7bbd7dd1ee"
+  url "https://github.com/haukesomm/apple-photos-export/archive/refs/tags/release-0.4.1.tar.gz"
+  sha256 "1bd5db102abc2cd7949fd1d8df02f061e5f93c9729312b7da430d6d155cc2f7c"
   license "MIT"
 
   depends_on "rust" => :build
@@ -13,6 +13,6 @@ class ApplePhotosExport < Formula
 
   test do
     output = shell_output("#{bin}/apple-photos-export --version")
-    assert_match "apple-photos-export 1.0.0", output
+    assert_match "apple-photos-export 0.4.1", output
   end
 end
