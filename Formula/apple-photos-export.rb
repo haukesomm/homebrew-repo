@@ -5,15 +5,15 @@
 class ApplePhotosExport < Formula
   desc "Command line tool to export photos from the macos photos library, organized by a"
   homepage "https://github.com/haukesomm/apple-photos-export"
-  url "https://github.com/haukesomm/apple-photos-export/archive/refs/tags/v1.3.1.tar.gz"
-  version "1.3.1"
-  sha256 "a510f5d1f67d56a21457cfc3b7e12e67f331fab3ef829d941f0cf9a87f4f91bb"
+  url "https://github.com/haukesomm/apple-photos-export/archive/refs/tags/v1.4.0.tar.gz"
+  version "1.4.0"
+  sha256 "f20df4e864692911060772dc98248e25f3bd98ac879652953c1abb95daafd630"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/haukesomm/apple-photos-export/releases/download/v1.3.1/apple-photos-export-1.3.1-darwin-arm64.tar.gz"
-      sha256 "dc0a8b7c9c0a27f3277522d8a59cf87ac659afe39bbd35b92a13fcc08ac1532f"
+      url "https://github.com/haukesomm/apple-photos-export/releases/download/v1.4.0/apple-photos-export-1.4.0-darwin-arm64.tar.gz"
+      sha256 "ace215e478872047c84f3bdf1fd5e1991ee79c3080d714a4d33d39b7aa4df519"
     end
   end
 
